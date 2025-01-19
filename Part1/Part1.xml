@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- La primera etiqueta representa la botiga on estan tots els productes -->
+<botiga>
+
+    <!-- La seguent etiqueta representa el producte -->
+    <!-- Cada producte té el seu codi per identificar-lo -->
+    <producte codi="a1">
+
+        <!-- Aquestes etiquetes representen els detalls del producte -->
+        <nom>Producte 1</nom>
+        <descripcio>Aquest és el producte 1</descripcio>
+        <preu>19,99</preu>
+        <categoria>Categoria</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge>imatge_1.jpg</imatge>
+    </producte>
+
+    <!-- El segon producte -->
+    <producte codi="a2">
+
+        <!-- Els detalls del segon producte -->
+        <nom>Producte 2</nom>
+        <descripcio>Aquets és el producte 2</descripcio>
+        <preu>4,99</preu>
+        <categoria>Categoria</categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <imatge>imatge_2.jpg</imatge>
+    </producte>
+</botiga>

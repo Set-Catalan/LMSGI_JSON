@@ -1,0 +1,19 @@
+{
+  "pokemons":
+    [
+      {
+        "id":"001",
+        "nom":"Bulbasaur",
+        "tipus":["Planta", "veneno"],
+        "pes":"6,9kg",
+        "altura":"0,7m",
+        "estadistiques":
+        {
+          "velocitat":3,
+          "fortalesa":3,
+          "presició":4,
+          "resistència":4
+        }
+      }
+    ]
+}

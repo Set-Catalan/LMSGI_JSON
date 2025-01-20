@@ -13,7 +13,79 @@
           "fortalesa":3,
           "presició":4,
           "resistència":4
-        }
+        },
+        "moviments":
+          [
+            {
+              "nom":"Placaje",
+              "descripció":"Placaje es un movimiento de tipo normal introducido en la primera generación.",
+              "potència":40,
+              "contacte":true
+            },
+            {
+              "nom":"Látigo cepa",
+              "descripció":"Látigo cepa es un movimiento de tipo planta introducido en la primera generación.",
+              "potència":45,
+              "contacte":true
+            }
+          ],
+        "imatge":"https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
+        "evolucions":
+          [
+            {
+              "id":"002",
+              "nom":"Ivysaur",
+              "nivell_evo":16
+            },
+            {
+              "id":"003",
+              "nom":"Venusaur",
+              "nivell_evo":32
+            }
+          ]
+      },
+      {
+        "id":"004",
+        "nom":"Charmander",
+        "tipus":["Fuego"],
+        "pes":"8,5kg",
+        "altura":"0,6m",
+        "estadistiques":
+        {
+          "velocitat":3,
+          "fortalesa":5,
+          "presició":4,
+          "resistència":3
+        },
+        "moviments":
+          [
+            {
+              "nom":"Arañazo",
+              "descripció":"Arañazo es un movimiento de tipo normal introducido en la primera generación.",
+              "potència":40,
+              "contacte":true
+            },
+            {
+              "nom":"Ascuas",
+              "descripció":"Ascuas es un movimiento de tipo fuego introducido en la primera generación.",
+              "potència":40,
+              "contacte":false
+            }
+          ],
+        "imatge":"https://www.wikidex.net/wiki/Archivo:Charmander.png",
+        "evolucions":
+          [
+            {
+              "id":"005",
+              "nom":"Charmeleon",
+              "nivell_evo":16
+            },
+            {
+              "id":"006",
+              "nom":"Charizard",
+              "nivell_evo":32
+            }
+          ]
       }
     ]
 }
